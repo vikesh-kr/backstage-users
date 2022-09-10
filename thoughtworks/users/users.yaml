@@ -8,3 +8,14 @@ metadata:
     picture: 
 spec:
   memberOf: [thoughtworks, awesome-project]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: vikesh-kr
+  profile:
+    displayName: Vikesh Kumar
+    email: vikesh.kumar@thoughtworks.com
+    picture: 
+spec:
+  memberOf: [thoughtworks, awesome-project,awesome-pet]
